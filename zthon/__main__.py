@@ -7,16 +7,14 @@ from zthon import BOTLOG_CHATID, PM_LOGGER_GROUP_ID
 from .Config import Config
 from .core.logger import logging
 from .core.session import zedub
-from .utils import mybot
 from .utils import (
     add_bot_to_logger_group,
-    install_externalrepo,
     load_plugins,
+    mybot,
     setup_bot,
     startupmessage,
     verifyLoggerGroup,
 )
-
 
 LOGS = logging.getLogger("Zelzal")
 cmdhr = Config.COMMAND_HAND_LER
